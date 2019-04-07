@@ -1,13 +1,13 @@
 {
-  "name": "@mels/react-components",
+  "name": "react-library-boilerplate",
   "version": "0.0.0",
-  "description": "A collection of some of my frequently used React components.",
+  "description": "Opinionated boilerplate for React libraries based on create-react-library.",
   "author": "Melanie Seltzer <melleh11@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/melanieseltzer/react-components#readme",
+  "homepage": "https://github.com/melanieseltzer/react-library-boilerplate#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/melanieseltzer/react-components.git"
+    "url": "https://github.com/melanieseltzer/react-library-boilerplate.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",

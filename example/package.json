@@ -1,12 +1,13 @@
 {
-  "name": "react-components-example",
-  "homepage": "https://melanieseltzer.github.io/react-components",
+  "name": "react-library-boilerplate-example",
   "version": "0.0.0",
+  "description": "Blah blah blah",
+  "homepage": "https://melanieseltzer.github.io/react-library-boilerplate-example",
   "license": "MIT",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
-    "react-components": "link:..",
+    "react-library-boilerplate": "link:..",
     "react-dom": "^16.4.1",
     "react-scripts": "^2.1.8"
   },
