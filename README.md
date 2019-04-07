@@ -2,7 +2,7 @@
 
 > A collection of some of my frequently used React components.
 
-[![npm (scoped)](https://img.shields.io/npm/v/@mels/react-components.svg)](https://www.npmjs.com/package/@mels/react-components) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+![CircleCI (all branches)](https://img.shields.io/circleci/project/github/melanieseltzer/react-library-boilerplate.svg) [![npm (scoped)](https://img.shields.io/npm/v/@mels/react-components.svg)](https://www.npmjs.com/package/@mels/react-components) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 ## Install
 
