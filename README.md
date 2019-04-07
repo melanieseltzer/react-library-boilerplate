@@ -1,27 +1,28 @@
-# react-components
+# @mels/react-components
 
 > A collection of some of my frequently used React components.
 
-[![NPM](https://img.shields.io/npm/v/react-components.svg)](https://www.npmjs.com/package/react-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm (scoped)](https://img.shields.io/npm/v/@mels/react-components.svg)](https://www.npmjs.com/package/@mels/react-components) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 ## Install
 
 ```bash
-npm install --save react-components
+npm install --save @mels/react-components
 ```
 
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React, { Component } from 'react';
+import { HelloWorld } from 'react-components';
 
-import MyComponent from 'react-components'
-
-class Example extends React.Component {
-  render () {
+export default class App extends Component {
+  render() {
     return (
-      <MyComponent />
-    )
+      <div>
+        <HelloWorld />
+      </div>
+    );
   }
 }
 ```
