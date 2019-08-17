@@ -2,6 +2,7 @@
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
+    "plugin:import/recommended",
     "plugin:jsx-a11y/recommended",
     "prettier",
     "prettier/@typescript-eslint"
@@ -23,6 +24,11 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   },
   "rules": {
@@ -69,9 +75,17 @@
   },
   "overrides": [
     {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    },
+    {
       "files": ["*.ts", "*.tsx"],
       "rules": {
         "no-unused-vars": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/prefer-interface": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-unused-vars": [
           2,
